@@ -25,10 +25,10 @@ export default function Courses() {
         <p className="text-sm">Learn from the best</p>
       </div>
       <div className="my-10">
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 justify-center items-center gap-10">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 justify-center items-center">
           {featuredCourses.map((course: Course) => (
-            <BackgroundGradient className="flex flex-col rounded-[22px] bg-white dark:bg-zinc-900 overflow-hidden h-full max-w-sm">
-              <div className="w-full p-4 sm:p-6 flex flex-col items-center text-center flex-grow">
+            <BackgroundGradient className="flex flex-col rounded-[22px] bg-white dark:bg-zinc-900 overflow-hidden h-full">
+              <div className="w-full sm:p-6 flex flex-col items-center text-center flex-grow">
                 <p className="text-lg sm:text-xl text-black mt-4 mb-2 dark:text-neutral-200">
                   {course.title}
                 </p>

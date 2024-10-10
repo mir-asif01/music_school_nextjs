@@ -34,7 +34,7 @@ export default function MovingCards() {
     },
   ]
   return (
-    <div className="h-[60vh] p-20 w-full dark:bg-black bg-white  dark:bg-grid-white/[0.2] bg-grid-black/[0.2] relative flex flex-col items-center justify-center">
+    <div className="h-[60vh] p-20 w-full dark:bg-black bg-white  dark:bg-grid-small-white/[0.2] bg-grid-small-black/[0.2] relative flex flex-col items-center justify-center">
       <div className="text-center mb-16">
         <h1 className="text-4xl">Testimonials</h1>
       </div>
